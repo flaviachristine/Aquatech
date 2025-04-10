@@ -1,30 +1,32 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
 
-body{
+body {
     margin: 0;
     font-family: sans-serif;
 }
 
-:root{
+:root {
     --azul: #32B9CD;
     --amarelo: #e3b062;
 }
 
-.header{
+.header {
     background-color: black;
     border-bottom: 3px solid var(--azul);
 }
-.header .container{
+
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
 }
 
-.titulo{
+.titulo {
     color: var(--azul);
 }
-.navbar{
+
+.navbar {
     display: flex;
     color: var(--amarelo);
     justify-content: space-between;
@@ -33,56 +35,65 @@ body{
     /* gap: 25px; */
     width: 300px;
 }
-.navbar a{
+
+.navbar a {
     color: var(--amarelo);
     text-decoration: none;
 }
-.agora{
+
+.agora {
     font-weight: bolder;
 }
 
-.banner{
+.banner {
     height: 400px;
     width: 100%;
     background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
     background-size: cover;
 }
-.banner .container{
+
+.banner .container {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.banner .container p{
+
+.banner .container p {
     width: 170px;
     margin: 0;
     color: white;
     font-size: 24px;
 }
-.banner .container span{
+
+.banner .container span {
     font-weight: bolder;
 }
-.social{
+
+.social {
     height: 400px;
     width: 100%;
     background-color: #dcdcdc;
 }
-.social .container{
+
+.social .container {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.boxes{
+
+.boxes {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.box{
+
+.box {
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -91,21 +102,25 @@ body{
     text-align: center;
     text-align: left;
 }
-.box img{
+
+.box img {
     width: 120px;
     height: 120px;
 }
-.box h4{
+
+.box h4 {
     margin: 0;
     margin-top: 10px;
     color: blueviolet;
 }
-.footer{
-    width:100%;
-    height:120px;
+
+.footer {
+    width: 100%;
+    height: 120px;
     background-color: var(--azul);
 }
-.footer .container{
+
+.footer .container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -113,6 +128,112 @@ body{
     align-items: center;
     color: white;
 }
-.footer h4{
+
+.footer h4 {
     margin-bottom: 0;
+}
+
+.login{
+    height: 700px;
+    width: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+}
+.card-login{
+    background-color: #DCDCDC;
+    padding: 20px;
+    width: 650px;
+    border-radius: 10px;
+    color: #cd326d;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.card-login .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-login h2{
+    display: flex;
+    justify-content: center;
+    color: #cd326d;
+    font-size: 32px;
+}
+.card-login .campo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-login .campo input{
+    background-color: white;
+    border: solid var(--azul);
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card-login .botao{
+    background-color: #cd326d;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.login {
+    height: 700px;
+    width: 100%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-cadastro{
+    background-color: #DCDCDC;
+    padding: 10px;
+    width: 650px;
+    height: 600px;
+    border-radius: 10px;
+    color: #cd326d;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.card-cadastro .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-cadastro h2{
+    display: flex;
+    justify-content: center;
+    color: #cd326d;
+    font-size: 32px;
+}
+.card-cadastro .campo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-cadastro .campo input{
+    background-color: white;
+    border: solid var(--azul);
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card-cadastro .botao{
+    background-color: #cd326d;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    font-weight: bold;
 }
